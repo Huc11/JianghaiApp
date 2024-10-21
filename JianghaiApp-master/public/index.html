@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css" >
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+<div id="page" class="site">
+    <div class="container">
+        <div class="form login">
+            <div class="hero">
+                <h1>Sign In to<br>Open the World</h1>
+                <p>If you don't have an account,<br>you can <a href="/register.html" id="registerLink">Register here</a>.</p>
+            </div>
+            <div class="main">
+                <form id="loginForm">
+                    <p>
+                        <input type="email" id="email" placeholder="Your email address">
+                    </p>
+                    <p>
+                        <input type="password" placeholder="Password" id="password">
+                        <i class="ri-eye-off-line" id="togglePassword"></i>
+                        <a href="#">Recovery password</a>
+                    </p>
+                    <div id="error-message"></div>
+                    <p>
+                        <input type="submit" class="submit" value="Sign In">
+                    </p>
+                </form>
+                <div class="options">
+                    <div class="seperator">
+                        <p>or continue with</p>
+                    </div>
+                    <ul>
+                        <li><a href="#"><i class="ri-google-fill ri-2x"></i></a></li>
+                        <li><a href="#"><i class="ri-apple-fill ri-2x"></i></a></li>
+                        <li><a href="#"><i class="ri-facebook-fill ri-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="script.js"></script>
+
+
+</body>
+</html>
