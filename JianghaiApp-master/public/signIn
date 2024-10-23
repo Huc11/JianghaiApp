@@ -1,0 +1,19 @@
+ <div class="form register-form">
+            <div class="hero">
+                <h1>Sign Up to<br>Join the World</h1>
+                <p>If you already have an account,<br>you can<a href="#" id="loginLink">Sign In here</a>.</p>
+            </div>
+            <div class="main">
+                <form action="">
+                    <p>
+                        <input type="text" placeholder="Your email address">
+                    </p>
+                    <p>
+                        <input type="password" placeholder="password">
+                    </p>
+                    <p>
+                        <input type="submit" class="=submit" value="Register">
+                    </p>
+                </form>
+            </div>
+        </div>
